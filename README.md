@@ -1,4 +1,4 @@
-# Quantory_Fronend
+# Quantory_Frontend
 
 ## Overview
 
