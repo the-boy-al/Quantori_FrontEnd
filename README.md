@@ -1,4 +1,4 @@
-# Quantory_Fronend
+# Quantory_Frontend
 
 ## Overview
 
@@ -15,7 +15,7 @@
 
 1) clone the repository
 ```
-git clone 
+git clone git@github.com:the-boy-al/Quantori_FrontEnd.git
 ```
 
 2) navigate your project directory

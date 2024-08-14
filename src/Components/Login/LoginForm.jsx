@@ -3,11 +3,10 @@ import './LoginForm.css'
 
 const LoginForm = ({visible, onClose}) => {
 
-  const [email, setEmail]=useState("");
+  const [username, setUsername]=useState("");
   const [password, setPassword]=useState("");
   async function login() {
-    console.warn(email, password);
-    let item={email, password};
+    let item={username, password};
     let result = await fetch('https://dummyjson.com/auth/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -27,7 +26,7 @@ const LoginForm = ({visible, onClose}) => {
         <div className="spacer"></div>
         <div class="coolinput">
             <label for="input" class="text">Email:</label>
-            <input type="text" onChange={(e)=> setEmail(e.target.value)} placeholder="email@example.com" name="input" class="input"/>
+            <input type="text" onChange={(e)=> setUsername(e.target.value)} placeholder="email@example.com" name="input" class="input"/>
         </div>
         <div className="spacer"></div>
         <div class="coolinput">
