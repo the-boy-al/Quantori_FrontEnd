@@ -1,0 +1,97 @@
+nav{
+     width: 100%;
+     background: #fff;
+     color: #66837E;
+     padding: 4px 0;
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 10;
+}
+
+.profile_picture{
+    width: 150px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px; 
+ }
+
+ .navbar{
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+
+ .btn{
+    background: #fff;
+    color: #66837E;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-color: #66837E;
+    outline: 0;
+ }
+
+ .profile{
+   padding:0;
+   border: 0;
+ }
+
+ .profile:hover{
+   opacity: 0.7;
+ }
+
+ .home:hover{
+    background-color:#66837E;
+    color: #fff;
+ }
+ .contact:hover{
+    background-color:#66837E;
+    color: #fff;
+ }
+ .about:hover{
+    background-color:#66837E;
+    color: #fff;
+ }
+ .login:hover{
+    background-color:#66837E;
+    color: #fff;
+ }
+
+
+ /* ----------media query---------- */
+
+@media (max-width: 1000px) {
+  .profile_picture {
+   width: 100px;
+  }
+  nav ul li {
+   margin: 3px 15px;
+  }
+}
+
+@media (max-width: 840px) {
+   nav ul {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: #66837E;
+      z-index: -10;
+      width: 200px;
+      padding-top: 70px;
+      transition: 0.5s;
+   }
+   nav ul li{
+      display: block;
+      margin: 25px 40px;
+   }
+ }

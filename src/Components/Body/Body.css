@@ -1,0 +1,52 @@
+.center{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+    
+    width: 100%;
+    height: 100%;
+    background-color: #495F4B;
+}
+
+.top_left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #66837E;
+    width: 33vw;   
+    height: 67vh;
+    z-index: 8;
+}
+
+.top_right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #9D4E2D;
+    width: 67vw;   
+    height: 33vh;
+    z-index: 8;
+}
+
+.bottom_left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #9DABB6;
+    width: 67vw;  
+    height: 33vh;
+    z-index: 8;
+}
+
+.bottom_right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #DD9857;
+    width: 33vw;  
+    height: 67vh;
+    z-index: 8;
+}
